@@ -1,0 +1,51 @@
+# Binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Temporary files and directories
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Go build artifacts
+bin/
+obj/
+vendor/  # If you use Go modules, vendor can be safely ignored
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.iml
+
+# Go module and dependency files (lock files)
+go.sum
+Gopkg.lock
+
+# Go module cache
+/pkg/mod/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment and config files (may contain secrets)
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Profiling/debugging outputs
+*.prof
+
+# Docker override files (usually environment-specific)
+docker-compose.override.yml
+
+# macOS metadata
+.AppleDouble
+.LSOverride
