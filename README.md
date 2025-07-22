@@ -21,12 +21,12 @@ go install github.com/gnomedevreact/mrn@latest
 # Usage
 
 ```bash
-mrn generate <module_name> <target_path>
+mrn <module_name> <target_path>
 ```
 
 # Example
 ```
-mrn generate users ./api
+mrn users ./api
 ```
 This will create:
 
